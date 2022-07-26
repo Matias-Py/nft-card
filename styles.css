@@ -1,0 +1,85 @@
+body{
+	background-color: #0D1A2D;
+	font-family: ubuntu;
+}
+p{
+	font-weight: bold;
+}
+h1{
+	color: white;
+	font-size: 1.5em;
+}
+h1:hover{
+	color:#27C2C6;
+	cursor: pointer;
+}
+#container{
+	margin-top: 3em !important;
+	margin: 0 auto;
+	background-color: #15273F;
+	height: auto;
+	width: 18em;
+	display: grid;
+	grid-auto-rows: 50% 25% 25%;
+	padding: 1em 1em 0em ;
+	border-radius: 6px;
+}
+#principalImage{
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+}
+#moreInfo{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+#infoContainer{
+	display: flex;
+	height: 100%;
+}
+#dayInfo{
+	display: flex;
+}
+#eth{
+	color: #27C2C6;
+}
+#day{
+	color:#8AA8D3;
+}
+#infoItem{
+	color:#8AA8D3;
+}
+#footerText{
+	color:#8AA8D3;
+}
+span{
+	color: white;
+}
+span:hover{
+	color:#27C2C6;
+	cursor: pointer;
+}
+#miniIMG{
+	height: 1em;
+	width: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+}
+#infoAutor{
+	display: flex;
+}
+#avatar{
+	padding-top: 0.5em;
+	padding-right: 1em;
+	height: 2em;
+	cursor: pointer;
+}
+hr{
+	color: gray;
+}
+#day{
+	cursor: pointer;
+}
+#eth{
+	cursor: pointer;
+}
